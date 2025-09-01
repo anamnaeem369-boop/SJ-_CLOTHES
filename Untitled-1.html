@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #d4af37;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+    header h1 {
+      font-size: 28px;
+      font-weight: bold;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #d4af37;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    .hero button {
+      border: 1px solid #d4af37;
+      background: none;
+      color: #d4af37;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .shop {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .shop h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .product {
+      background-color: #111;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product p {
+      margin: 10px 0 5px;
+      color: #fff;
+    }
+    .product span {
+      color: #d4af37;
+    }
+    .about, .contact {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>GOLDEN</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>NEW COLLECTION</h2>
+    <button>SHOP NOW</button>
+  </section>
+
+  <!-- Shop Section -->
+  <section class="shop">
+    <h2>SHOP</h2>
+    <div class="products">
+      
+      <!-- Product 1 -->
+      <div class="product">
+        <img src="dress1.jpg" alt="Dress 1">
+        <p>Elegant Dress</p>
+        <span>$120</span>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product">
+        <img src="dress2.jpg" alt="Dress 2">
+        <p>Casual Kurta</p>
+        <span>$80</span>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product">
+        <img src="dress3.jpg" alt="Dress 3">
+        <p>3-Piece Embroidered</p>
+        <span>$150</span>
+      </div>
+
+      <!-- Add More Dresses by Copy-Pasting -->
+      <!-- Example: -->
+      <!--
+      <div class="product">
+        <img src="dress4.jpg" alt="Dress 4">
+        <p>Printed Summer Dress</p>
+        <span>$95</span>
+      </div>
+      -->
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>ABOUT US</h2>
+    <p>
+      We create timeless embroidered and simple designs for women. 
+      Each piece reflects elegance, comfort, and modern style.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>CONTACT</h2>
+    <p>📞 03280167226</p>
+    <p>📧 _sj_clothes_</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2024 Golden. All rights reserved.
+  </footer>
+
+</body>
+</html>
